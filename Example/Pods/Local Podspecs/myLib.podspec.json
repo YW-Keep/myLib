@@ -1,0 +1,22 @@
+{
+  "name": "myLib",
+  "version": "0.1.0",
+  "summary": "A short description of myLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/YW-Keep/myLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "YW-Keep": "tangyuwei@myhexin.com"
+  },
+  "source": {
+    "git": "https://github.com/YW-Keep/myLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "myLib/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - myLib (0.1.0)
+
+DEPENDENCIES:
+  - myLib (from `../`)
+
+EXTERNAL SOURCES:
+  myLib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  myLib: d6e0dba517aba3d3c013ffa6b6c9b40da155021e
+
+PODFILE CHECKSUM: 345d19010c7f90a6ac6cb3787e7776c7759b658f
+
+COCOAPODS: 1.4.0

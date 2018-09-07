@@ -7,8 +7,11 @@
 //
 
 #import "TYViewController.h"
-
+#import "PrintString.h"
+#import "MyTextViewController.h"
 @interface TYViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *textAction;
+- (IBAction)myTextAction:(id)sender;
 
 @end
 
@@ -17,6 +20,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [PrintString PrintString];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -26,4 +30,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)myTextAction:(id)sender {
+    MyTextViewController *col = [[MyTextViewController alloc] init];
+    [self showViewController:col sender:nil];
+}
 @end
