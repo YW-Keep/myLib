@@ -12,6 +12,7 @@
 
 +(void)PrintString {
     NSLog(@"framework print1111");
+    NSLog(@"XXX");
 }
 
 @end
